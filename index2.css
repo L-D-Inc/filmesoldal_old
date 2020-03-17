@@ -1,0 +1,298 @@
+@font-face {
+	src: url(fonts/CaviarDreams.ttf);
+	font-family: caviar;
+}
+
+body {
+	background-color: #276c73 !important;
+}
+
+#page {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#login-box {
+
+}
+
+#reg-box {
+
+}
+
+.box {
+	width: 100%;
+	background-color: #12494e;
+	box-shadow: 5px 5px 5px #123f44;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.box h4 {
+	padding: 15px;
+}
+
+.box h4 p {
+	padding-left: 5px;
+	border-left: 3px solid #e99406;
+}
+
+.box label {
+	margin-left: 10%;
+	font-weight: normal;
+	font-family: tahoma;
+}
+
+.box input {
+	display: block;
+	width: 80%;
+	height: 35px;
+	margin: auto;
+	background-color: #256a71;
+	border: none;
+	border-radius: 2px;
+	text-align: center;
+	outline: none;
+}
+
+.box input::placeholder {
+	color: #000;
+}
+
+.box button {
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 35px;
+	background-color: #e99406;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	outline: none;
+}
+
+#to-rg {
+	display: block;
+	margin: 10px auto 0px;
+	width: 80%;
+	height: 35px;
+	background-color: #e99406;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	outline: none;
+	color: #fff;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.loading {
+	width: 360px;
+	height: 474px;
+	display: none;
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.loading-svg {
+	width: 120px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#email-label {
+	color: #000;
+}
+
+.msg-label {
+	display: none;
+	padding: 3px;
+	background-color: red;
+	font-size: 80%;
+}
+
+.msg-label-s {
+	display: none;
+	background-color: #228B22;
+	padding: 3px;
+	font-size: 80%;
+}
+
+#visible {
+	display: none;
+}
+
+#success-reg-box h3 {
+	color: #000 !important;
+
+}
+
+section {
+	color: #000;
+	font-size: 120%;
+}
+
+.afterMail {
+	font-weight: bold;
+}
+
+#remember-box {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+#remember-me {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin:
+}
+
+#remember-label {
+	margin-left: 10px;
+}
+
+#forgot-password {
+	display: none;
+}
+
+#forgot-password-p {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	color: #e99406;
+}
+
+#forgot-password-input {
+	margin-bottom: 20px;
+}
+
+#f-p-email {
+	font-weight: bold;
+}
+
+#forgot-password-ready {
+	display: none;
+}
+
+#show-password-box {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+#show-password {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin:
+}
+
+#show-password-label {
+	margin-left: 10px;
+}
+
+#snackbar {
+	visibility: hidden;
+	min-width: 250px;
+	height: 35px;
+	margin-left: -125px;
+	background-color: #C41818;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 7px;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 30px;
+	box-shadow: 5px 5px 5px #123f44;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+#ver-success-box {
+	width: 50%;
+	margin: auto;
+	background-color: #e99406;
+}
+
+#ver-success-box img {
+	padding: 15px;
+}
+
+#ver-success {
+	font-family: caviar;
+	font-weight: bold;
+	padding: 15px 0px 15px 15px;
+	font-size: 105%;
+}
+
+#ver-error-box {
+	width: 30%;
+	margin: auto;
+	background-color: #e99406;
+}
+
+#ver-error {
+	font-family: caviar;
+	font-weight: bold;
+	padding: 15px 0px 15px 15px;
+	font-size: 105%;
+}
+
+#ver-error-box img {
+	padding: 15px;
+}
+
+#ver-error-box2 {
+	width: 26.5%;
+	margin: auto;
+	background-color: #e99406;
+}
+
+#ver-error2 {
+	font-family: caviar;
+	font-weight: bold;
+	padding: 15px 0px 15px 15px;
+	font-size: 105%;
+}
+
+#ver-error-box2 img {
+	padding: 15px;
+}

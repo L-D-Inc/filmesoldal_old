@@ -1,0 +1,71 @@
+body {
+	background-color: #191919;
+}
+
+#left-box {
+	background-color: #262626;
+}
+
+.menu li:hover {
+	background-color: #a9a9a9;
+}
+
+.menu a {
+	color: #fff;
+}
+
+#secondary-menu li:first-child {
+	background-color: #FA8072;
+}
+
+#secondary-menu li {
+	background-color: #4682B4;
+}
+
+#secondary-menu li:hover {
+	background-color: #6A5ACD;
+}
+
+#secondary-menu li:first-child:hover {
+	background-color: #FF6347;
+}
+
+.badge {
+	background-color: #c0c0c0;
+	color: #000;
+}
+
+#center-box {
+	background-color: #1e1e1e;
+}
+
+.sBtn {
+	background-color: #0f0f0f;
+	color: #fff;
+}
+
+#sBtnS {
+	background-color: #2F4F4F;
+	color: #fff;
+}
+
+#sBtnD {
+	color: #5F9EA0;
+}
+
+#searchInput {
+	background-color: #0f0f0f;
+}
+
+#search-btn {
+	background-color: #0f0f0f;
+}
+
+#right-box {
+	background-color: #262626;
+}
+
+.filter-input {
+	background-color: #0f0f0f;
+	color: #5F9EA0;
+}
